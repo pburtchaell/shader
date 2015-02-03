@@ -1,0 +1,31 @@
+{
+  "name": "shader",
+  "version": "0.1.0",
+  "description": "Create a darker or lighter shade of a color.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/pburtchaell/shader"
+  },
+  "keywords": [
+    "color",
+    "colors",
+    "shade",
+    "shader",
+    "lighten",
+    "ligher",
+    "light",
+    "darken",
+    "darker",
+    "dark"
+  ],
+  "author": "Patrick Burtchaell <patrick@pburtchaell.com> (pburtchaell.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pburtchaell/shader/issues"
+  },
+  "homepage": "https://github.com/pburtchaell/shader"
+}
