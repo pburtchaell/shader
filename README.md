@@ -1,4 +1,5 @@
-# shader
+# shader [![npm version](https://badge.fury.io/js/shader.svg)](http://badge.fury.io/js/shader) [![Dependency Status](https://david-dm.org/pburtchaell/shader.svg)](https://david-dm.org/pburtchaell/shader)
+
 
 ## Overview
 
