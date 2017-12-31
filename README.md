@@ -28,7 +28,7 @@ var newShade = shader(color, value);
 | color | string | the seven character hex code for the color        |
 | value | number | a range from `-1.0` (darkest) to `1.0` (lightest) |
 
-**Note:** The color input must be *exactly* 7 characters, e.g., `#08a35c`.
+**Note:** The color input must be *exactly* 6 characters, e.g., `#08a35c`.
 
 ---
 Built with care in New Orleans by [Patrick Burtchaell](http://twitter.com/pburtchaell).
