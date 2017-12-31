@@ -2,8 +2,10 @@
   "name": "shader",
   "version": "1.0.0",
   "description": "Create a darker or lighter shade of a hex color.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "rm -rf dist && mkdir dist && `npm bin`/babel src/index.js -o dist/index.js",
+    "prebuild": "echo 'Running prebuild tests...' && npm test",
     "test": "`npm bin`/jest",
     "precommit": "echo 'Running pre-commit hooks...' && npm run test"
   },
@@ -33,6 +35,8 @@
     "url": "https://github.com/pburtchaell/shader/issues"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "jest": "^22.0.4",
     "pre-commit": "^1.2.2"
   }
