@@ -1,16 +1,21 @@
 {
   "name": "shader",
-  "version": "0.1.3",
-  "description": "Create a darker or lighter shade of a color.",
+  "version": "1.0.0",
+  "description": "Create a darker or lighter shade of a hex color.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "`npm bin`/jest",
+    "precommit": "echo 'Running pre-commit hooks...' && npm run test"
   },
+  "pre-commit": [
+    "precommit"
+  ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/pburtchaell/shader"
+    "url": "git+http://github.com/pburtchaell/shader"
   },
   "keywords": [
+    "hex values",
     "color",
     "colors",
     "shade",
@@ -27,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/pburtchaell/shader/issues"
   },
-  "homepage": "https://github.com/pburtchaell/shader"
+  "devDependencies": {
+    "jest": "^22.0.4",
+    "pre-commit": "^1.2.2"
+  }
 }

@@ -1,0 +1,5 @@
+.babelrc
+.npmignore
+.gitignore
+.travis.yml
+index.spec.js
