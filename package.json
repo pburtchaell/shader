@@ -12,10 +12,7 @@
   "pre-commit": [
     "precommit"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+http://github.com/pburtchaell/shader"
-  },
+  "repository": "https://github.com/pburtchaell/shader",
   "keywords": [
     "hex values",
     "color",
