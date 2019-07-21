@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+http://github.com/pburtchaell/shader"
+    "url": "git+https://github.com/pburtchaell/shader.git"
   },
   "keywords": [
     "hex values",
